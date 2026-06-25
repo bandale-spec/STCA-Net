@@ -5,4 +5,4 @@ scipy
 scikit-learn
 seaborn
 # tensorflow
-tensorflow==2.16.1
+# tensorflow==2.16.1
