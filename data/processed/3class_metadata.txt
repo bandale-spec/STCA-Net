@@ -1,0 +1,10 @@
+Task            : 3-class: Healthy / Interictal / Seizure
+X shape         : (11500, 178, 1)
+y shape         : (11500,)
+n_classes       : 3
+class_names     : ['Healthy', 'Interictal', 'Seizure']
+n_folds         : 10
+window_size     : 178
+stride          : 178
+sampling_freq   : 173.61 Hz
+normalisation   : z-score per record
