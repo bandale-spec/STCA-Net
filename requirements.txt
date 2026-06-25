@@ -7,3 +7,4 @@ seaborn
 # tensorflow
 # tensorflow==2.16.1
 plotly
+tensorflow==2.16.1
