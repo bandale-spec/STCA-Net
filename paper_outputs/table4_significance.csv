@@ -1,0 +1,4 @@
+Metric,STCA-Net,MASF,t-statistic,p-value,Significance
+Accuracy,75.64±1.20,73.15±0.99,4.663,0.0012,**
+F1-score,75.50±1.20,71.46±1.05,7.995,0.0000,***
+MCC,69.72±1.44,65.68±1.98,5.945,0.0002,***

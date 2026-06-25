@@ -1,0 +1,52 @@
+=================================================================
+STCA-Net  |  Phase 3 Results Summary
+=================================================================
+
+── 5-class task (matches MASF paper benchmark) ────────────
+  Accuracy  : 75.64% ± 1.27%
+  Precision : 75.99% ± 1.02%
+  Recall    : 75.64% ± 1.27%
+  F1-score  : 75.50% ± 1.26%
+  MCC       : 69.72% ± 1.52%
+
+── 3-class task ────────────────────────────────────────────
+  Accuracy  : 93.09% ± 1.31%
+  F1-score  : 93.10% ± 1.31%
+  MCC       : 89.22% ± 2.05%
+
+── 2-class task ────────────────────────────────────────────
+  Accuracy  : 97.58% ± 0.77%
+  F1-score  : 93.96% ± 1.90%
+  MCC       : 92.46% ± 2.38%
+
+── Improvement over MASF (5-class) ─────────────────────────
+  Δ Accuracy : +3.14%
+  Δ F1-score : +2.88%
+  Δ MCC      : +3.47%
+
+── Ablation study (5-class, 5-fold) ────────────────────────
+  A — Baseline CNN                  Acc=56.61%  F1=56.08%
+  B — DSCA only                     Acc=62.83%  F1=62.52%
+  C — CTE only                      Acc=70.90%  F1=70.45%
+  D — DSCA + CTE (concat)           Acc=70.10%  F1=69.75%
+  E — Full STCA-Net                 Acc=73.93%  F1=73.71%
+
+── Key novelty contribution summary ────────────────────────
+  DSCA alone (+6.22% over baseline)
+  CTE alone  (+14.29% over baseline)
+  Cross-Attention Fusion adds +3.83% over concat fusion
+  Full model surpasses MASF by +3.14% accuracy
+
+── Files generated ─────────────────────────────────────────
+  table1_5class_comparison.csv
+  table2_all_tasks.csv
+  table3_ablation.csv
+  table4_significance.csv
+  fig1_per_fold_results.png
+  fig2_confusion_matrices.png
+  fig3_ablation.png
+  fig4_radar_chart.png
+  fig5_training_curves.png
+  fig6_comparison_errorbar.png
+  fig7_per_class_metrics.png
+=================================================================

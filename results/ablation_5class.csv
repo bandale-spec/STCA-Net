@@ -1,0 +1,6 @@
+Variant,Accuracy (%),F1-score (%)
+A_Baseline_CNN,56.61±2.47,56.08±2.88
+B_DSCA_only,62.83±2.05,62.52±2.12
+C_CTE_only,70.90±1.24,70.45±1.44
+D_DSCA+CTE_concat,70.10±0.84,69.75±0.96
+E_Full_STCA-Net,73.93±0.35,73.71±0.37

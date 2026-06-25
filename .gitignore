@@ -7,23 +7,3 @@ __pycache__/
 .venv/
 venv/
 
-# Model files (optional if too large)
-*.keras
-*.h5
-
-# Streamlit secrets
-.streamlit/secrets.toml
-
-# Results and outputs
-plots/
-results/
-paper_outputs/
-
-# VS Code
-.vscode/
-
-# OS files
-.DS_Store
-Thumbs.db
-data/processed/
-*.npy

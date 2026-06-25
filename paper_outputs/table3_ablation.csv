@@ -1,0 +1,6 @@
+Variant,Accuracy (%),F1-score (%),ΔAcc vs baseline,ΔF1 vs baseline
+A — Baseline CNN,56.61,56.08,0.00,0.00
+B — DSCA only,62.83,62.52,+6.22,+6.44
+C — CTE only,70.90,70.45,+14.29,+14.37
+D — DSCA + CTE (concat),70.10,69.75,+13.49,+13.67
+E — Full STCA-Net,73.93,73.71,+17.32,+17.63
